@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "F1bY1cyL6WU5GzNhuAt6ks7A67csE/0SjsyQJeZJbpgvMrJhMYSguCblVFkzVGJn16xGNZIjbF1ZzKvMaWRpxA==",
+  "dgSpecHash": "376jWlMPvoam7uLkEuLtvsI+vryL9x8BCMz5N9qSWAJOQ6jZdcykAuRZFKOtrzAdehjihVwWN276KutE4Upspw==",
   "success": true,
   "projectFilePath": "E:\\COURSES\\skinet\\API\\API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\silviu_marinca\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
+    "C:\\Users\\silviu_marinca\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.0.0\\automapper.extensions.microsoft.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\silviu_marinca\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\silviu_marinca\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\silviu_marinca\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
@@ -36,6 +38,7 @@
     "C:\\Users\\silviu_marinca\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "C:\\Users\\silviu_marinca\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
     "C:\\Users\\silviu_marinca\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\silviu_marinca\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
     "C:\\Users\\silviu_marinca\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
   ],
   "logs": []
