@@ -35,14 +35,14 @@ namespace API.Controllers
         public ActionResult getBadRequest()
         {
 
-            return BadRequest(); 
+            return BadRequest(new ApiResponse(400)); 
         }
 
-        [HttpGet("badrbadrequest/{id}")]
+        [HttpGet("badrequest/{id}")]
         public ActionResult getBadRequest(int id)
         {
 
-            return Ok(); 
+            return BadRequest(new ApiResponse(400,"resourse with key " + id + " was not found! ")); 
         }
     }
 }
