@@ -7,13 +7,13 @@ namespace API.Helpers
         public Pagination(int pageIndex, int pageSze, int count, IReadOnlyList<T> data)
         {
             PageIndex = pageIndex;
-            PageSze = pageSze;
+            PageSize = pageSze;
             Count = count;
             Data = data;
         }
 
         public int PageIndex { get; set; }
-        public int PageSze { get; set; }
+        public int PageSize { get; set; }
         public int Count { get; set; }
         public IReadOnlyList<T> Data { get; set; }
  
