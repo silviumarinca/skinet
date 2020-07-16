@@ -42,7 +42,7 @@ namespace API.Controllers
         public ActionResult getBadRequest(int id)
         {
 
-            return BadRequest(new ApiResponse(400,"resourse with key " + id + " was not found! ")); 
+            return BadRequest(); 
         }
     }
 }

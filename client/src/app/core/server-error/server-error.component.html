@@ -1,3 +1,21 @@
+
 <div class="container mt-5">
-    <h1>Internal Server Error</h1>
+   <h4>Internal server error - refreshing the page will make the exception dissapear</h4>
+<h5 class="text-danger">Error:
+    <ng-container *ngIf="error"> {{error.details}}</ng-container> </h5>
+<p class="font-weight-bold">If you see this your probably not responsabile</p>
+<p>What to do next?</p>
+<ul>
+    <li>Open chrome dev tools</li>
+    <li>Inspect network tab</li>
+    <li>Check the failing request</li> 
+    <li>Examine this reuest url- make sure this is correct</li>
+    <li>Reproduce error in postman</li>
+    <code class="mt-5" syle="background-color:whitesmoke">
+        <ng-container *ngIf="error">  {{error.message}}
+
+        </ng-container> 
+        
+       </code>
+</ul>
 </div>

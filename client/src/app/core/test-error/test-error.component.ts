@@ -9,6 +9,7 @@ import { environment } from 'src/environments/environment';
 })
 export class TestErrorComponent implements OnInit {
 baseUrl = environment.apiUrl;
+validationErrors: any;
   constructor(private http: HttpClient) { }
 
   ngOnInit() {
@@ -30,8 +31,11 @@ baseUrl = environment.apiUrl;
                                 err => console.log(err));
 }
   get400ValidationError() {
-                          this.http.get(this.baseUrl + 'buggy/badrequest')
+                          this.http.get(this.baseUrl + 'products/five')
                              .subscribe(response => {console.log(response)},
-                                                      err => console.log(err));
+                                                    err => { console.log(err);
+                                                             this.validationErrors = err.errors;
+                                                    }
+                                       );
 }
 }
