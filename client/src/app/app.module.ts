@@ -19,6 +19,7 @@ import { ErrorInterceptor } from './core/interceptors/error.interceptor';
     BrowserAnimationsModule,
     CoreModule,
     HomeModule
+    
   ],
   providers: [
               {
