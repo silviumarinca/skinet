@@ -144,3 +144,13 @@ D:\Courses\skinet\API\obj\Debug\netcoreapp3.1\staticwebassets\API.StaticWebAsset
 D:\Courses\skinet\API\obj\Debug\netcoreapp3.1\API.dll
 D:\Courses\skinet\API\obj\Debug\netcoreapp3.1\API.pdb
 D:\Courses\skinet\API\obj\Debug\netcoreapp3.1\API.genruntimeconfig.cache
+E:\COURSES\skinet\API\bin\Debug\netcoreapp3.1\Pipelines.Sockets.Unofficial.dll
+E:\COURSES\skinet\API\bin\Debug\netcoreapp3.1\StackExchange.Redis.dll
+E:\COURSES\skinet\API\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+E:\COURSES\skinet\API\bin\Debug\netcoreapp3.1\System.Diagnostics.PerformanceCounter.dll
+E:\COURSES\skinet\API\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
+E:\COURSES\skinet\API\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+E:\COURSES\skinet\API\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+E:\COURSES\skinet\API\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll
+E:\COURSES\skinet\API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+E:\COURSES\skinet\API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
