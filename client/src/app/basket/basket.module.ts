@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { BasketComponent } from './basket.component';
 import { BaskerRoutingModule } from './basker-routing.module';
+import { SharedModule } from '../shared/shared.module';
 
 
 
@@ -9,7 +10,8 @@ import { BaskerRoutingModule } from './basker-routing.module';
   declarations: [BasketComponent],
   imports: [
     CommonModule,
-    BaskerRoutingModule
+    BaskerRoutingModule,
+    SharedModule
   ]
 })
 export class BasketModule { }

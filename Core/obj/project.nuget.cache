@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "udDjNeQRqup2qZHBQNl3FANFYT3yqzqQKpT8s1xOV1fXUYM4UsUe/Sqjm+ny6b8DHuVsYBTB9KjH3+oNu6Mxeg==",
+  "dgSpecHash": "OBb6gWpNDAFIdeG6EOIZyJK+9aqig4JSYXMUZCinK9tAXg2uHWP1n3wC7zUlesYUThnANG8zhXO+vtMcQG7dMQ==",
   "success": true,
-  "projectFilePath": "E:\\COURSES\\skinet\\Core\\Core.csproj",
+  "projectFilePath": "D:\\Courses\\skinet\\Core\\Core.csproj",
   "expectedPackageFiles": [
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\Silviu\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Silviu\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }
