@@ -164,3 +164,16 @@ D:\Courses\skinet\API\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Prote
 D:\Courses\skinet\API\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll
 D:\Courses\skinet\API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
 D:\Courses\skinet\API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\COURSES\skinet\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+E:\COURSES\skinet\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+E:\COURSES\skinet\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\COURSES\skinet\API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+E:\COURSES\skinet\API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\COURSES\skinet\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+E:\COURSES\skinet\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\COURSES\skinet\API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\COURSES\skinet\API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\COURSES\skinet\API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\COURSES\skinet\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+E:\COURSES\skinet\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+E:\COURSES\skinet\API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
