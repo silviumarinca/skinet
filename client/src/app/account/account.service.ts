@@ -15,7 +15,7 @@ private currentUserSource = new ReplaySubject<IUser>(1);
 currentUser$ = this.currentUserSource.asObservable();
 
   constructor(private http: HttpClient, private router: Router) { }
-  login(values: any){
+  login(values: any) {
     return this.http.post(this.baseUrl + 'account/login', values)
     .pipe(map((u: IUser) => {
       if (u) {
