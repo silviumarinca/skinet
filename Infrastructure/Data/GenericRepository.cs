@@ -49,6 +49,20 @@ namespace Infrastructure.Data
               return    SpecificationEvaluator<T>.GetQuery(_ctx.Set<T>().AsQueryable(),spec);
         }
 
-       
+        public void Add(T entity)
+        {
+            _ctx.Set<T>().Add(entity);
+        }
+
+        public void Update(T entity)
+        {   
+            _ctx.Set<T>().Attach(entity);
+            _ctx.Entry(entity).State= EntityState.Modified;
+        }
+
+        public void Delete(T entity)
+        {
+            _ctx.Set<T>().Remove(entity);
+        }
     }
 }
