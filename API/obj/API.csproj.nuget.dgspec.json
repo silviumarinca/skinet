@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Courses\\skinet\\API\\API.csproj": {}
+    "E:\\COURSES\\skinet\\API\\API.csproj": {}
   },
   "projects": {
-    "D:\\Courses\\skinet\\API\\API.csproj": {
+    "E:\\COURSES\\skinet\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Courses\\skinet\\API\\API.csproj",
+        "projectUniqueName": "E:\\COURSES\\skinet\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\Courses\\skinet\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\Silviu\\.nuget\\packages\\",
-        "outputPath": "D:\\Courses\\skinet\\API\\obj\\",
+        "projectPath": "E:\\COURSES\\skinet\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\silviu_marinca\\.nuget\\packages\\",
+        "outputPath": "E:\\COURSES\\skinet\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Silviu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\silviu_marinca\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,14 +25,19 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.syncfusion.com/nuget_aspnetcore/nuget/getsyncfusionpackages/aspnetcore": {},
+          "http://nuget.syncfusion.com/nuget_universal/nuget/getsyncfusionpackages/universal/": {},
+          "http://nuget.syncfusion.com/nuget_windows-forms/nuget/getsyncfusionpackages/windows-forms": {},
           "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.syncfusion.com/nuget_aspnetcore-js2/nuget/getsyncfusionpackages/aspnetcore-js2": {},
+          "https://nuget.syncfusion.com/nuget_aspnetcore/nuget/getsyncfusionpackages/aspnetcore": {},
           "https://nuget.syncfusion.com/nuget_aspnetmvc/nuget/getsyncfusionpackages/aspnetmvc": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Courses\\skinet\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "D:\\Courses\\skinet\\Infrastructure\\Infrastructure.csproj"
+              "E:\\COURSES\\skinet\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "E:\\COURSES\\skinet\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -77,12 +82,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -91,24 +90,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.2.20176.6\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Courses\\skinet\\Core\\Core.csproj": {
+    "E:\\COURSES\\skinet\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Courses\\skinet\\Core\\Core.csproj",
+        "projectUniqueName": "E:\\COURSES\\skinet\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "D:\\Courses\\skinet\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\Silviu\\.nuget\\packages\\",
-        "outputPath": "D:\\Courses\\skinet\\Core\\obj\\",
+        "projectPath": "E:\\COURSES\\skinet\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\silviu_marinca\\.nuget\\packages\\",
+        "outputPath": "E:\\COURSES\\skinet\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Silviu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\silviu_marinca\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -116,7 +115,12 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.syncfusion.com/nuget_aspnetcore/nuget/getsyncfusionpackages/aspnetcore": {},
+          "http://nuget.syncfusion.com/nuget_universal/nuget/getsyncfusionpackages/universal/": {},
+          "http://nuget.syncfusion.com/nuget_windows-forms/nuget/getsyncfusionpackages/windows-forms": {},
           "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.syncfusion.com/nuget_aspnetcore-js2/nuget/getsyncfusionpackages/aspnetcore-js2": {},
+          "https://nuget.syncfusion.com/nuget_aspnetcore/nuget/getsyncfusionpackages/aspnetcore": {},
           "https://nuget.syncfusion.com/nuget_aspnetmvc/nuget/getsyncfusionpackages/aspnetmvc": {}
         },
         "frameworks": {
@@ -154,24 +158,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.2.20176.6\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Courses\\skinet\\Infrastructure\\Infrastructure.csproj": {
+    "E:\\COURSES\\skinet\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Courses\\skinet\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "E:\\COURSES\\skinet\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\Courses\\skinet\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Silviu\\.nuget\\packages\\",
-        "outputPath": "D:\\Courses\\skinet\\Infrastructure\\obj\\",
+        "projectPath": "E:\\COURSES\\skinet\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\silviu_marinca\\.nuget\\packages\\",
+        "outputPath": "E:\\COURSES\\skinet\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Silviu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\silviu_marinca\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -179,14 +183,19 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.syncfusion.com/nuget_aspnetcore/nuget/getsyncfusionpackages/aspnetcore": {},
+          "http://nuget.syncfusion.com/nuget_universal/nuget/getsyncfusionpackages/universal/": {},
+          "http://nuget.syncfusion.com/nuget_windows-forms/nuget/getsyncfusionpackages/windows-forms": {},
           "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.syncfusion.com/nuget_aspnetcore-js2/nuget/getsyncfusionpackages/aspnetcore-js2": {},
+          "https://nuget.syncfusion.com/nuget_aspnetcore/nuget/getsyncfusionpackages/aspnetcore": {},
           "https://nuget.syncfusion.com/nuget_aspnetmvc/nuget/getsyncfusionpackages/aspnetmvc": {}
         },
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "D:\\Courses\\skinet\\Core\\Core.csproj": {
-                "projectPath": "D:\\Courses\\skinet\\Core\\Core.csproj"
+              "E:\\COURSES\\skinet\\Core\\Core.csproj": {
+                "projectPath": "E:\\COURSES\\skinet\\Core\\Core.csproj"
               }
             }
           }
@@ -244,7 +253,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.2.20176.6\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
