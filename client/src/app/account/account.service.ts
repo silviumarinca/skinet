@@ -5,6 +5,7 @@ import { Router } from '@angular/router';
 import {  ReplaySubject, of } from 'rxjs';
 import { IUser } from '../shared/models/user';
 import { map } from 'rxjs/operators';
+import { IAddress } from '../shared/models/address';
 
 @Injectable({
   providedIn: 'root'
@@ -57,5 +58,13 @@ currentUser$ = this.currentUserSource.asObservable();
                               this.currentUserSource.next(user);
                             }
                           }));
+  }
+
+
+  getUserAddress(){
+    return this.http.get<IAddress>(this.baseUrl + 'account/address' );
+  }
+  updateUserAddress(address: IAddress){
+    return this.http.put<IAddress>(this.baseUrl + 'account/address', address );
   }
 }

@@ -9,6 +9,7 @@ import { HomeModule } from './home/home.module';
 import { ErrorInterceptor } from './core/interceptors/error.interceptor';
 import { NgxSpinnerModule } from 'ngx-spinner';
 import { LoadingInterceptors } from './core/interceptors/loading.interceptors';
+import { JwtInterceptor } from './core/interceptors/jwtInterceptor';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,11 @@ import { LoadingInterceptors } from './core/interceptors/loading.interceptors';
               {
                 provide: HTTP_INTERCEPTORS,
                 useClass: LoadingInterceptors,
+                multi: true
+              },
+              {
+                provide: HTTP_INTERCEPTORS,
+                useClass: JwtInterceptor,
                 multi: true
               }
             ],

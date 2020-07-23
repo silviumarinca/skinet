@@ -35,7 +35,7 @@ namespace Infrastructure.Services
 
             var result = await _unitOfWork.Complete();
 
-            if(result >= 0) return null;
+            if(result <= 0) return null;
 
             //delete Basket
             await _basketRepo.DeleteBasketAsync(basketId);
