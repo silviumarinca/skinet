@@ -16,13 +16,16 @@ export class OrderService {
 
 
   getOrders(){
-    return this.httpClient.get<IOrder[]>(this.baseUrl + 'Orders')
-    .pipe(map(o => o.sort((a, b) =>  b.id - a.id)))
-    .subscribe(o => {
-      this.orderSource.next(o);
-    });
+    return this.httpClient.get<IOrder[]>(this.baseUrl + 'Orders');
+ 
   }
   getOrderById(id: number){ 
   return this.httpClient.get<IOrder>(this.baseUrl + `Orders/${id}` );
   }
+  getOrdersForUser( ){
+    return this.httpClient.get<IOrder[]>(this.baseUrl + `orders` );
+    }
+    getOrderDetailed(id: number){
+      return this.httpClient.get<IOrder>(this.baseUrl + `Orders/${id}` );
+      }
 }
