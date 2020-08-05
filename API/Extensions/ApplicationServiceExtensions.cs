@@ -17,6 +17,7 @@ namespace API.Extensions
             services.AddScoped<IBasketRepository,BaskeRepository>();
             services.AddScoped(typeof(IGenericRepository<>),typeof(GenericRepository<>));
             services.AddScoped<IOrderService,OrderService>();
+            services.AddScoped<IPaymentService,PaymentService>();
              services.AddScoped<IUnitOfWork,UnitOfWork>();
              services.Configure<ApiBehaviorOptions>(options=>
             {
